@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact CAB</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a class="link" href="home.html">Home</a></li>
+            <li><a class="link" href="home.html#menu">Menu</a></li>
+            <li><a class="link"   href="home.html#address">Address</a></li>
+        </ul>
+    </div>
+    <h3>Contact us:</h3>
+    <section>
+    <form action="https://httpbin.org/get",
+          method="get">
+        <div class="input-container">
+            
+            <input type="text" name="firstname" id="firstname"  autocomplete="on" required>
+            <label class="lable" for="firstname">Firstname</label>
+          </div>
+          <div class="input-container">
+            <input type="text" name="lastname" id="lastname" autocomplete="on" required>
+             <label for="lastname">Lastname:</label>
+          </div>
+          <div class="input-container">
+            
+            <input type="datetime-local" name="dob" id="dob"  autocomplete="on" >
+            <label for="firstname"></label>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" id="email" autocomplete="on" required>
+            <label for="email">Email:</label>
+          </div>
+          <div class="input-container">
+            
+            <input type="tel" name="phone" id="phone"no" autocomplete="on" required="[0-9]{3}[0-9]{4}[0-9]{4}">
+            <label for="firstname">phone No:</label>
+          </div>
+          <button type="post">sumit</button>
+
+        
+    </form>
+  </section>
+    
+</body>
+</html>
